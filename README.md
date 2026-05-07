@@ -1,66 +1,73 @@
-# Cross-Border Trade & Customs Flow Analysis (1989–2016)
+Cross-Border Trade & Customs Flow Analysis (1989–2016)
+Project Overview
 
-## Project Overview
+This project analyzes cross-border trade flows between the United States, Canada, and Mexico to identify long-term trade trends, commodity concentration, and operational impacts on freight movement and customs processing.
 
-This project analyzes cross-border trade flows between the United States, Canada, and Mexico to understand commodity distribution, trade imbalances, and their impact on cross-border freight movement and customs operations.
+The dashboard focuses on how trade growth, trade imbalances, and high-volume commodity categories influence:
 
-The dashboard highlights how trade volume, commodity concentration, and trade balance shifts influence customs processing, documentation requirements, and border congestion.
+customs documentation workload
+border congestion
+freight demand
+operational planning requirements
 
----
+The analysis is designed from a logistics and customs operations perspective rather than a purely economic perspective.
 
-## Key Focus Areas
+Business Questions
 
-- Cross-border trade volume and growth trends  
-- Trade balance shifts over time  
-- High-volume HS-coded commodity categories  
-- Operational impact on freight movement and customs processing  
+This analysis focuses on answering:
 
----
+How did cross-border trade volumes change over time?
+Which commodity groups generated the highest trade imbalances?
+How did trade deficits and surpluses shift across the region?
+Which commodities are most likely to create sustained customs processing pressure?
+What operational risks emerge as trade activity and import dependency increase?
+Key Findings
+Cross-border trade activity expanded significantly from 1989–2016, exceeding $110T in total trade volume.
+Petroleum commodities (HS2-27) represented one of the largest contributors to cross-border trade imbalance and freight movement.
+The region shifted into a sustained trade deficit beginning in the late 1990s, increasing dependency on imports and freight activity.
+High-volume commodity concentration creates increased customs documentation requirements and greater risk of border congestion.
+Trade growth directly impacts operational planning, freight coordination, and customs processing efficiency.
+Operational Relevance
 
-## Key Insight
+This project highlights how trade patterns influence real-world logistics and customs operations, including:
 
-Cross-border trade activity expanded significantly, with total trade exceeding $110T and average annual growth of ~15%.
+customs documentation workload
+border crossing efficiency
+freight flow concentration
+import dependency
+operational bottlenecks
 
-High-volume commodities—particularly crude petroleum (HS2-27)—drive frequent cross-border movement, increasing documentation workload and classification risk.
+The dashboard was designed to support operational awareness rather than purely financial reporting.
 
-As trade volumes increased, the region shifted into a sustained deficit, indicating growing dependency on imports and increased cross-border freight demand.
+Dashboard Preview
 
-These patterns directly impact customs processing efficiency, documentation accuracy, and border congestion.
+Live Dashboard
 
-**Operational Focus:** High-volume commodities and sustained trade imbalances require strong customs documentation processes and proactive planning to reduce border delays and congestion.
+View Interactive Tableau Dashboard
 
----
-
-## Dashboard Preview
-
-![Cross-Border Trade Dashboard](images/cross_border_trade.png)
-
----
-
-## Live Dashboard
-
-[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/nikki.carlson2355/viz/nafta_17626310339920/NAFTATradeOverview)
-
----
-
-## Data Source
+Data Source
 
 UN Comtrade / UNData — Global Commodity Trade Statistics (1989–2016)
 
-Filtered to United States, Canada, and Mexico and aggregated using HS2 and HS6 commodity classifications.
+Dataset filtered to:
 
-All values are reported in USD (billions).
+United States
+Canada
+Mexico
 
----
+Commodity classifications:
 
-## Notes
+HS2
+HS6
 
-- The dataset used in this project is large and not included in this repository due to size constraints  
-- Data was processed and aggregated for analysis in Tableau  
-- A sample dataset may be provided for reference if needed  
+All values reported in USD (billions).
 
----
-
-## Tools Used
-
-- Tableau (dashboard development and visualization)
+Tools Used
+Tableau (dashboard development and visualization)
+Kaggle datasets
+Data filtering and preprocessing
+Trade flow and commodity imbalance analysis
+Notes
+The dataset used in this project is large and is not fully included in this repository.
+Data was filtered and aggregated prior to dashboard development.
+This project focuses on operational trade analysis and customs flow impacts rather than macroeconomic forecasting.
