@@ -59,7 +59,9 @@ The dashboard was designed to support operational awareness rather than purely f
 
 ## Live Dashboard
 
-[View Interactive Tableau Dashboard](PASTE-YOUR-TABLEAU-LINK-HERE)
+## Live Dashboard
+
+[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/nikki.carlson2355/viz/nafta_17626310339920/NAFTATradeOverview)
 
 ---
 
